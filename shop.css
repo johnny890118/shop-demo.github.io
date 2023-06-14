@@ -1,0 +1,103 @@
+.navbar {
+  background-color: #00162e;
+  height: 60px;
+}
+
+.nav-link {
+  color: #d9b300;
+  display: block;
+  line-height: 45px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  background-color: #d9b300;
+  color: #00162e;
+}
+
+.dropdown-menu {
+  background-color: #00162e;
+  text-align: center;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+.dropdown-menu a {
+  color: #d9b300;
+}
+
+.dropdown-menu p {
+  color: #f7f1e5;
+}
+
+.dropdown-menu a:hover {
+  background-color: #d9b300;
+  color: #00162e;
+}
+
+.navbar-toggler-icon {
+  background-color: #d9b300;
+}
+
+#navbarSupportedContent {
+  background-color: #00162e;
+}
+
+.navicon {
+  color: #d9b300;
+  display: block;
+  line-height: 60px;
+  padding: 0px 10px;
+  float: left;
+}
+
+.navicon:hover {
+  color: #00162e;
+  background-color: #d9b300;
+}
+
+.row a {
+  color: white;
+  text-decoration: none;
+}
+
+.row a:hover {
+  color: #e4dccf;
+}
+
+.row {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+body {
+  font-family: "微軟正黑體", "Microsoft JhengHei", sans-serif;
+}
+
+#sc{
+    margin: 5% auto;
+}
+
+#sc h5{
+    background-color: #00162e;
+    color: white;
+    padding: 15px;
+    margin: 0;
+}
+
+.buy{
+    padding: 10px 0;
+    border: #00162e 1px solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buy1{
+    border: #00162e 1px solid;
+}
+
+.buy1 h1{
+    margin: 0;
+    padding: 40px;
+}

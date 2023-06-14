@@ -1,0 +1,214 @@
+.navbar {
+  background-color: #00162e;
+  height: 60px;
+}
+
+.nav-link {
+  color: #d9b300;
+  display: block;
+  line-height: 45px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  background-color: #d9b300;
+  color: #00162e;
+}
+
+.dropdown-menu {
+  background-color: #00162e;
+  text-align: center;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+.dropdown-menu a {
+  color: #d9b300;
+}
+
+.dropdown-menu p {
+  color: #f7f1e5;
+}
+
+.dropdown-menu a:hover {
+  background-color: #d9b300;
+  color: #00162e;
+}
+
+.navbar-toggler-icon {
+  background-color: #d9b300;
+}
+
+#navbarSupportedContent {
+  background-color: #00162e;
+}
+
+.navicon {
+  color: #d9b300;
+  display: block;
+  line-height: 60px;
+  padding: 0px 10px;
+  float: left;
+}
+
+.navicon:hover {
+  color: #00162e;
+  background-color: #d9b300;
+}
+
+h1 {
+  color: white;
+  font-weight: 900;
+}
+
+p {
+  color: white;
+}
+
+.background {
+  background-image: url("motor.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 660px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content input {
+  width: 390px;
+  height: 40px;
+}
+
+.content h1 {
+  font-size: 40px;
+}
+
+.content p {
+  font-size: 20px;
+}
+
+.submit {
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #d9b300;
+  color: #00162e;
+  border: 0px;
+}
+
+.submit:hover {
+  background-color: #00162e;
+  color: #d9b300;
+}
+
+.row img {
+  width: 100%;
+}
+
+.row img:hover {
+  opacity: 0.5;
+}
+
+h4 {
+  text-align: center;
+  width: 288px;
+  font-weight: 900;
+  background-color: rgb(183 60 88);
+  color: white;
+  border-radius: 12px 12px 12px 3px;
+  margin-left: 20px;
+}
+
+.bg2 {
+  background-color: #3c3c3c;
+}
+
+.row a {
+  color: white;
+  text-decoration: none;
+}
+
+.row a:hover {
+  color: #e4dccf;
+}
+
+.shop-btn {
+  background-color: #c5b397;
+  color: #00162e;
+  border-radius: 5px;
+  width: 250px;
+  font-weight: 900;
+}
+
+.shop-btn:hover {
+  background-color: #f9f5eb;
+}
+
+.row {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.row p {
+  color: #d9b300;
+}
+
+.row-1 div {
+  width: 288px;
+  background-color: #00162e;
+}
+
+.row-1 div:hover {
+  transform: scale(1.05);
+}
+
+.icon-group {
+  width: 133.33px;
+}
+
+.content {
+  animation: openIn 1.5s ease-in-out;
+}
+
+@keyframes openIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 500px) {
+  .content input {
+    width: 290px;
+    height: 30px;
+  }
+
+  .background {
+    background-image: url("moto2.jpg");
+    width: 100%;
+    height: 784px;
+  }
+
+  .row-1 div {
+    width: 45%;
+  }
+
+  .shop-btn {
+    width: 150px;
+  }
+}
+
+body {
+  font-family: "微軟正黑體", "Microsoft JhengHei", sans-serif;
+}
